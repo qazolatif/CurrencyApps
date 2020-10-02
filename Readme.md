@@ -14,10 +14,10 @@ Satu dolar dianggap senilai Rp15.000
 Diawali dari method "MainWindow" pada class MainWindow.xaml.cs kita mendeklarasikan blablabla
 
     public MainWindow()
-        {
-            InitializeComponent();
-            currency = new CurrencyController();
-        }
+    {
+        InitializeComponent();
+        currency = new CurrencyController();
+    }
 
 Logika perhitungan terdapat pada 'CurrencyController.cs'
     
