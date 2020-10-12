@@ -9,7 +9,7 @@ Satu dolar dianggap senilai Rp15.000
 * User mendapat info "INVALID" jika yang dimasukkan berupa teks.
 
 ## How does it works?
-Diawali dari method "MainWindow" pada class MainWindow.xaml.cs kita mendeklarasikan blablabla
+Diawali dari method "MainWindow" pada class `MainWindow.xaml.cs` kita mendeklarasikan fungsi dari `CurrencyController.cs`
 ```c#
 public MainWindow()
 {
