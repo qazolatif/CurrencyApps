@@ -37,40 +37,5 @@ public string usdToIdr(string nominal)
 2. `CurrencyController.cs` diperlukan untuk memisahkan fungsi yang mengatur konversi angka dengan code utama agar menghasilkan clean code.
 3. Kegunaan isAllowed method adalah untuk memberitahu fungsi Button_Hitung_Click pada `MainWindow.xaml.cs` apakah data yang dimasukkan pengguna berupa angka atau huruf.
 4. Fungsi RegEx pada percobaan nomor 4 adalah untuk mengetahui pola tertentu yang dihasilkan oleh input pengguna. Misal, bila pengguna menginputkan angka dan huruf secara bersamaan (contoh: 3eer), maka RegEx akan menyimpulkan bahwa input yang dimasukkan bukanlah angka sehingga fungsi Button_Hitung_Click akan menampilkan output 'invalid' alih-alih aplikasinya menjadi error.
-5. 
-```mermaid
-classDiagram
-      Animal <|-- Duck
-      Animal <|-- Fish
-      Animal <|-- Zebra
-      Animal : +int age
-      Animal : +String gender
-      Animal: +isMammal()
-      Animal: +mate()
-      class Duck{
-          +String beakColor
-          +swim()
-          +quack()
-      }
-      class Fish{
-          -int sizeInFeet
-          -canEat()
-      }
-      class Zebra{
-          +bool is_wild
-          +run()
-      }
-```
-```plantuml.server
-@startuml
-class Dummy {
-  String data
-  void methods()
-}
-
-class Flight {
-   flightNumber : Integer
-   departureTime : Date
-}
-@enduml
-```
+5. Class Diagram untuk aplikasi ini
+* ![Class Diagram](http://www.plantuml.com/plantuml/png/POw_IWH138VxUOgKYXpu01PtheLRM2bO7dCpGS9baYEJkFZ7TrSNXMMl_HA-xxVjdisZSNh89CyaLIUu-TniO0WpbF8sgBWfCrhgHv9JjjoWSEvzvsvq2CUng3pIEy9rIlC55hAF15UlsK2qaMGUvHJ-XmnxiAV5zyLbWjjmLzdVauUyx0UcSlp1N__gyrthn9t6WN7LY5wVTApsMw2-OzO9w-pTejHe_0q0)
