@@ -22,13 +22,11 @@ namespace CurrencyApps
     public partial class MainWindow : Window
     {
         CurrencyController currencyController;
-
         public MainWindow()
         {
             InitializeComponent();
             currencyController = new CurrencyController();
         }
-
         private void Button_Hitung_Click(object sender, RoutedEventArgs e)
         {
             var nominalInput = InputTextBox.Text;
